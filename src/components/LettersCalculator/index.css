@@ -1,0 +1,33 @@
+/* Write your code here. */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  height: 100vh;
+  background-size: cover;
+}
+h1 {
+  color: white;
+  align-self: flex-start;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  height: 200px;
+  width: 250px;
+  justify-content: start;
+  align-items: flex-end;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
